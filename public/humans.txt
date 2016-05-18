@@ -1,0 +1,18 @@
+/* TEAM */
+Developer: Eric McCormick
+Site: cv.ericmc.co	/* part of ericmc.co/rmick */
+Twitter: edm00se
+Location: Neenah, WI, USA
+
+/* THANKS */
+NodeJS.org	/* awesome platform for servers and beyond */
+ExpressJS.com	/* simplified NodeJS! */
+Heroku.com	/* free hosting! NodeJS! */
+cvmkr.com	/* my design is customized off of one of their formats */
+AnuglarJS.org	/* without which none of this would work */
+Google.com	/* for believing in web standards and making AngularJS */
+
+/* SITE */
+Last Update: 22OCT2013
+Standards: HTML5, CSS3, JavaScript
+Components: Moternizr, AngularJS

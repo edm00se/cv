@@ -1,0 +1,30 @@
+<!--
+<div class="inner cover">
+    <h1 class="cover-heading">Eric McCormick</h1>
+    <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
+    <p class="lead">
+      <a href="#" class="btn btn-lg btn-default">Learn more</a>
+    </p>
+</div>
+-->
+<a id="contact"></a>
+<div id="headerInfo">
+    <h1 id="title">{{myName.firstName}}&nbsp;{{myName.lastName}}</h1>
+    <div class="basic-info section">
+        <div class="set">
+            <p class="email">
+                <!--E-mail:--> <a href="mailto:{{myName.email}}">{{myName.email}}</a> 
+                <!-- <span class="dot">&sect;</span> -->
+                <!--Website:-->
+                <!-- | <a href="http://www.about.me/EricMcCormick" style="text-decoration:none;color:inherit">about.me/EricMcCormick</a> -->
+                <!-- <span class="dot">&sect;</span> -->
+            </p>
+            <p class="address">
+                <!--Phone: --> <a href="tel://{{myName.phone}}">{{myName.phone}}</a>&nbsp;|&nbsp;
+                {{myName.city}}, {{myName.state}}&nbsp;{{myName.zip}}</p>
+            <div class="clear"></div>
+        </div>
+        <!-- set //-->
+        <div class="clear"></div>
+    </div>
+</div>

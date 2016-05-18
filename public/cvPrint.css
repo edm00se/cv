@@ -1,0 +1,53 @@
+#pdfHeader {
+    display:none;
+}
+#credit {
+    display:none;
+}
+#main {
+    line-height: normal;
+    padding: 10px;
+    font-size: 85%;
+    box-shadow: none;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+#title {
+    margin-bottom: 0px;
+}
+.section-work {
+    margin-top: 1em;
+}
+.section {
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.section:last-child {
+    margin-bottom: 0px;
+}
+.section-interests .item:last-child {
+    margin-bottom: 0px;
+}
+/*
+.set {
+    page-break-inside: avoid;
+}
+.section-work {
+    page-break-inside: avoid;
+}
+.section-education {
+    page-break-inside: avoid;
+}
+.section-qualifications {
+    page-break-inside: avoid;
+}
+.section-interests {
+    page-break-inside: avoid;
+}
+*/
+.item {
+    page-break-inside: avoid;
+}
+.noPrint {
+    display: none;
+}

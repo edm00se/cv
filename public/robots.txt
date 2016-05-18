@@ -1,0 +1,10 @@
+afcaUser-agent:	*
+Disallow:	/google59646afca0faaf8.html
+Disallow:	/emRes.js
+Disallow:	/EricMcCormick.json
+Disallow:	/EricMcCormick_CV.pdf
+Disallow:	/basic.html
+Disallow:	/simple.json
+Disallow:	/simpleCallApp.js
+Disallow:	/404.html
+

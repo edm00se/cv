@@ -1,0 +1,16 @@
+<div class="section section-education">
+    <h2 class="title"><a id="education h4">Education</a></h2>
+    <div class="set">
+        <div class="item" ng-repeat="ed in myEd">
+            <h3>
+                <span class="course l">{{ed.what}}</span>
+                <span class="date r">{{ed.from}} &mdash; {{ed.to}}</span>
+            </h3>
+            <span class="clear"> </span>
+            <span class="school">{{ed.school}}</span>
+            <span class="info" ng-repeat="p in ed.description"><p>{{p}}</p></span>
+            <span class="clear"> </span>
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>

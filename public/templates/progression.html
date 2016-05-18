@@ -1,0 +1,10 @@
+<div class="section progression-section">
+    <div class="set">
+        <div class="item info" ng-repeat="pr in myProg"> <h2>{{pr.what}}</h2>
+            <br />
+            <ul class="{{pr.what}}">
+                <li ng-repeat="ent in pr.entries">{{ent.when}} &ndash; {{ent.what}}</li>
+            </ul>
+        </div>
+    </div>
+</div>

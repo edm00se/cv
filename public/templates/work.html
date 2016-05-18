@@ -1,0 +1,18 @@
+<div class="section section-work">
+  <h2 class="title">
+    <a id="work h4">Work Experience</a>
+  </h2>
+  <div class="set row">
+    <div class="item col-md-12" ng-repeat="job in myJobs">
+      <h3><span class="company l">{{job.company}}</span>
+        <span class="date r">{{job.from}} &mdash; {{job.to}}</span></h3>
+        <span class="clear"> </span>
+        <span class="job_title">{{job.position}}</span>
+        <span class="info">{{job.description}}</span>  <span class="clear"> </span>
+          <ul class="two-col">
+              <li ng-repeat="skill in job.descripList">{{skill}}</li>
+          </ul>
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
