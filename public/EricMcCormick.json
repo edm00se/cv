@@ -13,7 +13,7 @@
         "from":         "Nov 2011",
         "to":           "Current",
         "position":     "Web Developer",
-        "description": "Currently mastering IBM's XPages platform, with a great deal of SSJS and JSF, amongst other technologies involved. Primarily working on re-developing an in-house content management and documentation control system with a variety of modules and integration to other existing systems with both modern and legacy languages. Developing a modern, updated workflow with new actions and view entries, while preserving backwards functionality with the previous generation system. Server agents are a specialty, with run-time and user experience optimization a fact of life. Other projects and custom web apps developed in-house for other departments, as-needed. Legacy technology support while driving innovation and support of the company forward."
+        "description": "Full-stack web development, working on IBM's XPages platform (a proprietary JSF superset) along with Node.js and a variety of MV* frameworks. Primary development and support for in-house custom document control system, single-handedly developed a productivity and performance tracking and forecasting system. Other projects and custom web apps developed in-house for other departments, as-needed. Additionally implemented source control solution and custom build process to implement a new CI solution, easing deployment concerns."
     }, {
         "company":      "457th Transportation Battalion",
         "from":         "Feb 2013",
@@ -96,7 +96,7 @@
                 "MySQL"
             ]
         }],
-        "progression":  [{                      
+        "progression":  [{
                             "what": "Progression",
                             "entries": [{
                                 "what": "Eagle Scout, Boy Scouts of America",
@@ -133,26 +133,26 @@
                                 "when": "2013"
                             },{
                                 "what": "IBM Champion (ICS)",
-                                "when": "2015"
+                                "when": "2015, 2016"
                                 }]
         }],
         "interests":    "Photography, biking, skiing, and snow shoeing are my hobbies. They usually require the outdoors and are great ways to pass time and be active while engaging the brain and creative processes.",
         "social":       [
         {
-            "service":  "about.me",
-            "link":     "http://about.me/EricMcCormick"
+            "service":  "Website",
+            "link":     "https://ericmccormick.io/"
         },{
             "service":  "LinkedIn",
             "link":     "http://www.linkedin.com/in/emccormick"
         },{
             "service":  "Twitter",
-            "link":     "http://www.twitter.com/edm00se"
+            "link":     "https://www.twitter.com/edm00se"
         },{
             "service":  "StackOverflow",
             "link":     "http://stackoverflow.com/users/1720082/eric-mccormick"
         },{
             "service":  "GitHub",
-            "link":     "http://github.com/edm00se"
+            "link":     "https://github.com/edm00se"
         }
         ],
         "misc": [
