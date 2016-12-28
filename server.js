@@ -16,7 +16,7 @@ app.use(require('prerender-node'));
 // serve static assets from /public
 app.use(express.static('public'));
 
-require('./keep-alive');
+// require('./keep-alive');
 
 app.listen(port, function () {
   console.log('App listening on port ' + port + '!');
