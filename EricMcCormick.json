@@ -12,8 +12,8 @@
         "company":      "The Boldt Company",
         "from":         "Nov 2011",
         "to":           "Current",
-        "position":     "Web Developer",
-        "description": "Full-stack web development, working on IBM's XPages platform (a JSF based runtime with baked in NoSQL db) and Node.js. Primary development and support for in-house custom document control system, single-handedly developed a productivity and performance tracking and forecasting system. Other projects and custom web apps developed in-house for other departments, as-needed. Additionally implemented source control solution and custom build process to implement a new CI solution, easing deployment concerns."
+        "position":     "Software Developer",
+        "description": "Full-stack web app and systems integration developer. Working with IBM XPages (XSP + JSF) and Node.js on the back-end of the stack, along with Dojo, jQuery, and Angular, vue.js and other various front-end frameworks.  Implemented custom build and continuous deployment process. Custom productivity, progress tracking, and forecasting applications for use with company-wide initiative for a highly distributed company.  Named an IBM Champion for three years running in recognition of conference speaking and other community efforts."
     }, {
         "company":      "457th Transportation Battalion",
         "from":         "Feb 2013",
