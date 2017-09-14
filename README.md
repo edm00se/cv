@@ -1,3 +1,3 @@
 # Eric's CV
 
-Hosted on Heroku.
+Static, hosted on GitHub Pages.
