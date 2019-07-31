@@ -13,7 +13,7 @@
         "from":         "Jul 2017",
         "to":           "Current",
         "position":     "Software Developer",
-        "description": "Full-stack web developer with Java and JavaScript with a deep understanding of RDBMS and SQL, Java 8 and Spring, and front-end frameworks such as AngularJS. Git, Docker, and much more."
+        "description": "Full-stack Java and JavaScript developer with a deep understanding of RDBMS and SQL, MariaDB/MySQL and MSSQL, Java 8 and Spring, and front-end frameworks, such as Angular and AngularJS. Also build a front-end build pipeline and provides support for Docker image and Jenkins builds and deployments."
     },
     {
         "company":      "The Boldt Company",
