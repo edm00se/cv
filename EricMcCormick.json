@@ -86,11 +86,13 @@
         "qualifications": [{
             "what": "Experience",
             "list": [
-            "8 years freelance web development",
-            "2 years professional web application development"
+            "2 years freelance web development",
+            "8 years professional web application development"
         ]},{
             "what": "Platforms",
             "list": [
+		"JavaScript",
+		"Node.js",
                 "IBM XPages",
                 "SSJS",
                 "Java",
@@ -100,7 +102,8 @@
                 "HTML5",
                 "Python",
                 "MongoDB",
-                "MySQL"
+                "MySQL",
+		"MariaDB"
             ]
         }],
         "progression":  [{
