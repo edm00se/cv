@@ -1,175 +1,224 @@
 {
-        "nameBlock":    {
-                "firstName":  "Eric",
-                "lastName":   "McCormick",
-                "email":      "eric.n.mccormick@gmail.com",
-                "phone":      "(218)499-9455",
-                "city":       "Neenah",
-                "state":      "WI",
-                "zip":        "54956"
-        },
-        "work": [{
-        "company":      "TASC (Total Administrative Services Corporation)",
-        "from":         "Jul 2017",
-        "to":           "Current",
-        "position":     "Software Developer",
-        "description": "Full-stack Java and JavaScript developer with a deep understanding of RDBMS and SQL, MariaDB/MySQL and MSSQL, Java 8 and Spring, and front-end frameworks, such as Angular and AngularJS. Also build a front-end build pipeline and provides support for Docker image, Jenkins builds, AWS console, and deployments."
+  "nameBlock": {
+    "firstName": "Eric",
+    "lastName": "McCormick",
+    "email": "eric.n.mccormick@gmail.com",
+    "phone": "(218)499-9455",
+    "city": "Neenah",
+    "state": "WI",
+    "zip": "54956"
+  },
+  "work": [
+    {
+      "company": "TASC (Total Administrative Services Corporation)",
+      "from": "May 2019",
+      "to": "Current",
+      "position": "Senior Software Developer",
+      "description": "Full-stack JavaScript developer, providing new feature development, issue remediation, and support for a high availability application. Front ends work consists of applications built on Angular with micro services driving the back-ends, with deployments on AWS lambda, with the serverless framework, MS SQL db, and Athena data. AWS console, step functions, athena reporting, and logging, in addition to Docker built images for deployments, built on Jenkins. TypeScript with both back-end and front-ends, amongst other tooling."
     },
     {
-        "company":      "The Boldt Company",
-        "from":         "Nov 2011",
-        "to":           "Jun 2017",
-        "position":     "Software Developer",
-        "description": "Full-stack web app and systems integration developer. Working with IBM XPages (XSP + JSF) and Node.js on the back-end of the stack, along with Dojo, jQuery, and Angular, vue.js and other various front-end frameworks.  Implemented custom build and continuous deployment process. Custom productivity, progress tracking, and forecasting applications for use with company-wide initiative for a highly distributed company.  Named an IBM Champion for three years running in recognition of conference speaking and other community efforts."
-    }, {
-        "company":      "457th Transportation Battalion",
-        "from":         "Feb 2013",
-        "to":           "Nov 2013",
-        "position":     "Battalion Maintenance Officer",
-        "description":  "Responsible for overseeing the support, maintenance, man hour logging, repair processing, parts ordering and distribution for all mission critical equipment in the Battalion. The operational readiness of the Battalion is calculated from equipment and personnel functionality, we make them happen. Constant review and reporting of equipment status to provide the best support possible to the Battalion Commander, subordinate commanders, and fellow staff sections."
-    }, {
-        "company":      "457th Transportation Battalion",
-        "from":         "Aug 2012",
-        "to":           "Feb 2013",
-        "position":     "S4 - Supply and Logistics Officer",
-        "description":  "Battalion Staff officer in the role of Supply and Logistics for the 457th Transportation Battalion. Managing of all Battalion owned material, oversight of supply management, and support planning for all organizational operations. Provide support and guidance to Battalion Commander, subordinate commanders, and all staff."
-    }, {
-        "company":      "American Heart Association",
-        "from":         "Mar 2010",
-        "to":           "June 2014",
-        "position":     "CPR and First Aid Instruction",
-        "description":  "American Heart Association BLS instructor. Provide CPR, First Aid, and AED instruction and testing for the city as a certified AHA BLS instructor. Provide instructional services for new and returning students including skills testing and grading written examinations. Instruction given to both novice (Heartsaver) and Health Care Professional students. Incorporate additional information from cyclical information pushes from the AHA."
-    }, {
-        "company":      "International Falls EMS",
-        "from":         "Dec 2009",
-        "to":           "Nov 2011",
-        "position":     "Emergency Medical Technician",
-        "description":  "Provide emergency care and transport for the community's sick and injured, maintain national and state certifications through continuing education.Primary BLS care provider and ALS crew member. Advanced protocols for above national and state (MN) certification performance. Fully qualified emergency vehicle operator."
-    }, {
-        "company":      "353rd Transportation Company",
-        "from":         "Dec 2007",
-        "to":           "Mar 2011",
-        "position":     "Platoon Leader",
-        "description":  "Charged with the mission for and care of a 40 man Platoon, equipment operational readiness, and training. Recently returned from a tour in OIF in a line haul Transportation Company, conducting numerous combat support missions, delivering all classes of supply over the country of Iraq. On return stateside, platoon leader for platoon needing the most team reconstruction. Served additional duties of Voting Assistance Officer, Safety Officer, Health Officer and Executive Officer."
-    }, {
-        "company": "The Computer Fix",
-        "from": "May 2007",
-        "to": "Sep 2008",
-        "position": "Senior Repair Technician",
-        "description": "Computer systems repair and maintenance, database and networking setup and repair. Specializing in: ",
-        "descripList": [
-            "On-Site Service Calls with personal and corporate customers",
-            "System Restoration, Virus and Malware removal",
-            "Component Upgrades",
-            "Home and Office Networking",
-            "Purchasing advise to the owner"]
-    }],
-        "education":    [{
-        "what":     "Management Information Systems - Business Administration",
-        "school":   "Michigan Technological University",
-        "from":     "Sep 2002",
-        "to":       "May 2007",
-        "description": [
-            "The Management Information Systems degree provides information that is needed to manage organizations efficiently and effectively. Management Information Systems are not only computer systems - these systems encompass three primary components: technology, people (individuals, groups, or organizations), and data/information for decision making. Management Information Systems are distinct from other Information Systems in that they are designed to be used to analyze and facilitate strategic and operational activities in the organization.",
-            "Emphasis in systems architecture and software development were added in all MIS electives, for a unique personal flavor. Served as team leader for senior capstone class project, culminating in a usability study and development of a departmental, mobile usability \"lab\" with documentation for continued use by others."
-        ]
-    },{
-        "what":     "Emergency Medical Technician",
-        "school":   "International Falls EMS",
-        "from":     "Jul 2009",
-        "to":       "Dec 2009",
-        "description": [
-            "Successful completion of a 120 hour NREMT accredited course, successful pass of a written cognitive test and practical exam. Course includes a minimum clinical hours in emergency department and patient interactions in emergency, EMS setting, in \"ride along\" status. Critical thinking skills, memorization and practical application of medical information and practices, communication skills, and improvisation are all key to success.",
-            "Additionally certified with Minnesota's EMSRB (2009-current) and licensed in Wisconsin (2011-current)."
-        ]
-    }],
-        "qualifications": [{
-            "what": "Experience",
-            "list": [
-            "2 years freelance web development",
-            "8 years professional web application development"
-        ]},{
-            "what": "Platforms",
-            "list": [
-		"JavaScript",
-		"Node.js",
-                "IBM XPages",
-                "SSJS",
-                "Java",
-                "LotusScript",
-                "PHP",
-                "jQuery",
-                "HTML5",
-                "Python",
-                "MongoDB",
-                "MySQL",
-		"MariaDB"
-            ]
-        }],
-        "progression":  [{
-                            "what": "Progression",
-                            "entries": [{
-                                "what": "Eagle Scout, Boy Scouts of America",
-                                "when": "2000"
-                            },{
-                                "what": "US Army Reserve Commission",
-                                "when": "2007"
-                            },{
-                                "what": "Military Officer's Association",
-                                "when": "2007"
-                            },{
-                                "what": "National Defense Transportation Association",
-                                "when": "2007"
-                            },{
-                                "what": "OIF Veteran",
-                                "when": "2008"
-                            },{
-                                "what": "Iraqi and Afghanistan Veteran's Assocation, lifetime member",
-                                "when": "2009"
-                            },{
-                                "what": "EMT certification through NREMT and MN-EMSRB",
-                                "when": "2009"
-                            },{
-                                "what": "American Heart Association - CPR and First Aid Instructor (BLS)",
-                                "when": "2010"
-                            },{
-                                "what": "WI EMT licensure",
-                                "when": "2011"
-                            },{
-                                "what": "Contract Web Developer",
-                                "when": "2011"
-                            },{
-                                "what": "Web Application Developer",
-                                "when": "2013"
-                            },{
-                                "what": "IBM Champion (ICS)",
-                                "when": "2015, 2016"
-                                }]
-        }],
-        "interests":    "Photography, biking, skiing, and snow shoeing are my hobbies. They usually require the outdoors and are great ways to pass time and be active while engaging the brain and creative processes.",
-        "social":       [
+      "company": "TASC (Total Administrative Services Corporation)",
+      "from": "Jul 2017",
+      "to": "May 2019",
+      "position": "Software Developer",
+      "description": "Full stack Java and JavaScript developer with a deep understanding of RDBMS and SQL, MariaDB/MySQL and MSSQL, Java 8 and Spring, and front-end frameworks, such as Angular. Also build a front-end build pipeline and provided support for Docker images, Jenkins builds, AWS console, and deployments."
+    },
+    {
+      "company": "The Boldt Company",
+      "from": "Nov 2011",
+      "to": "Jun 2017",
+      "position": "Software Developer",
+      "description": "Full-stack web app and systems integration developer. Working with IBM XPages (XSP + JSF) and Node.js on the back-end of the stack, along with Dojo, jQuery, and Angular, vue.js and other various front-end frameworks.  Implemented custom build and continuous deployment process. Custom productivity, progress tracking, and forecasting applications for use with company-wide initiative for a highly distributed company.  Named an IBM Champion for three years running in recognition of conference speaking and other community efforts."
+    },
+    {
+      "company": "457th Transportation Battalion",
+      "from": "Feb 2013",
+      "to": "Nov 2013",
+      "position": "Battalion Maintenance Officer",
+      "description": "Responsible for overseeing the support, maintenance, man hour logging, repair processing, parts ordering and distribution for all mission critical equipment in the Battalion. The operational readiness of the Battalion is calculated from equipment and personnel functionality, we make them happen. Constant review and reporting of equipment status to provide the best support possible to the Battalion Commander, subordinate commanders, and fellow staff sections."
+    },
+    {
+      "company": "457th Transportation Battalion",
+      "from": "Aug 2012",
+      "to": "Feb 2013",
+      "position": "S4 - Supply and Logistics Officer",
+      "description": "Battalion Staff officer in the role of Supply and Logistics for the 457th Transportation Battalion. Managing of all Battalion owned material, oversight of supply management, and support planning for all organizational operations. Provide support and guidance to Battalion Commander, subordinate commanders, and all staff."
+    },
+    {
+      "company": "American Heart Association",
+      "from": "Mar 2010",
+      "to": "June 2014",
+      "position": "CPR and First Aid Instruction",
+      "description": "American Heart Association BLS instructor. Provide CPR, First Aid, and AED instruction and testing for the city as a certified AHA BLS instructor. Provide instructional services for new and returning students including skills testing and grading written examinations. Instruction given to both novice (Heartsaver) and Health Care Professional students. Incorporate additional information from cyclical information pushes from the AHA."
+    },
+    {
+      "company": "International Falls EMS",
+      "from": "Dec 2009",
+      "to": "Nov 2011",
+      "position": "Emergency Medical Technician",
+      "description": "Provide emergency care and transport for the community's sick and injured, maintain national and state certifications through continuing education.Primary BLS care provider and ALS crew member. Advanced protocols for above national and state (MN) certification performance. Fully qualified emergency vehicle operator."
+    },
+    {
+      "company": "353rd Transportation Company",
+      "from": "Dec 2007",
+      "to": "Mar 2011",
+      "position": "Platoon Leader",
+      "description": "Charged with the mission for and care of a 40 man Platoon, equipment operational readiness, and training. Recently returned from a tour in OIF in a line haul Transportation Company, conducting numerous combat support missions, delivering all classes of supply over the country of Iraq. On return stateside, platoon leader for platoon needing the most team reconstruction. Served additional duties of Voting Assistance Officer, Safety Officer, Health Officer and Executive Officer."
+    },
+    {
+      "company": "The Computer Fix",
+      "from": "May 2007",
+      "to": "Sep 2008",
+      "position": "Senior Repair Technician",
+      "description": "Computer systems repair and maintenance, database and networking setup and repair. Specializing in: ",
+      "descripList": [
+        "On-Site Service Calls with personal and corporate customers",
+        "System Restoration, Virus and Malware removal",
+        "Component Upgrades",
+        "Home and Office Networking",
+        "Purchasing advise to the owner"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "what": "Management Information Systems - Business Administration",
+      "school": "Michigan Technological University",
+      "from": "Sep 2002",
+      "to": "May 2007",
+      "description": [
+        "The Management Information Systems degree provides information that is needed to manage organizations efficiently and effectively. Management Information Systems are not only computer systems - these systems encompass three primary components: technology, people (individuals, groups, or organizations), and data/information for decision making. Management Information Systems are distinct from other Information Systems in that they are designed to be used to analyze and facilitate strategic and operational activities in the organization.",
+        "Emphasis in systems architecture and software development were added in all MIS electives, for a unique personal flavor. Served as team leader for senior capstone class project, culminating in a usability study and development of a departmental, mobile usability \"lab\" with documentation for continued use by others."
+      ]
+    },
+    {
+      "what": "Emergency Medical Technician",
+      "school": "International Falls EMS",
+      "from": "Jul 2009",
+      "to": "Dec 2009",
+      "description": [
+        "Successful completion of a 120 hour NREMT accredited course, successful pass of a written cognitive test and practical exam. Course includes a minimum clinical hours in emergency department and patient interactions in emergency, EMS setting, in \"ride along\" status. Critical thinking skills, memorization and practical application of medical information and practices, communication skills, and improvisation are all key to success.",
+        "Additionally certified with Minnesota's EMSRB (2009-current) and licensed in Wisconsin (2011-current)."
+      ]
+    }
+  ],
+  "qualifications": [
+    {
+      "what": "Experience",
+      "list": [
+        "2 years freelance web development",
+        "over 8 years professional web application development",
+        "named an IBM Champion for six years running"
+      ]
+    },
+    {
+      "what": "Platforms",
+      "list": [
+        "JavaScript",
+        "Node.js",
+        "IBM XPages",
+        "SSJS",
+        "Java",
+        "LotusScript",
+        "PHP",
+        "jQuery",
+        "HTML5",
+        "Python",
+        "MongoDB",
+        "MySQL",
+        "MariaDB",
+        "MS SQL",
+        "Dynamo DB",
+        "Servlerless framework",
+        "AWS lambda",
+        "AWS Console"
+      ]
+    }
+  ],
+  "progression": [
+    {
+      "what": "Progression",
+      "entries": [
         {
-            "service":  "Website",
-            "link":     "https://edm00se.codes/"
-        },{
-            "service":  "LinkedIn",
-            "link":     "http://www.linkedin.com/in/emccormick"
-        },{
-            "service":  "Twitter",
-            "link":     "https://www.twitter.com/edm00se"
-        },{
-            "service":  "StackOverflow",
-            "link":     "http://stackoverflow.com/users/1720082/eric-mccormick"
-        },{
-            "service":  "GitHub",
-            "link":     "https://github.com/edm00se"
+          "what": "Eagle Scout, Boy Scouts of America",
+          "when": "2000"
+        },
+        {
+          "what": "US Army Reserve Commission",
+          "when": "2007"
+        },
+        {
+          "what": "Military Officer's Association",
+          "when": "2007"
+        },
+        {
+          "what": "National Defense Transportation Association",
+          "when": "2007"
+        },
+        {
+          "what": "OIF Veteran",
+          "when": "2008"
+        },
+        {
+          "what": "Iraqi and Afghanistan Veteran's Assocation, lifetime member",
+          "when": "2009"
+        },
+        {
+          "what": "EMT certification through NREMT and MN-EMSRB",
+          "when": "2009"
+        },
+        {
+          "what": "American Heart Association - CPR and First Aid Instructor (BLS)",
+          "when": "2010"
+        },
+        {
+          "what": "WI EMT licensure",
+          "when": "2011"
+        },
+        {
+          "what": "Contract Web Developer",
+          "when": "2011"
+        },
+        {
+          "what": "Web Application Developer",
+          "when": "2013"
+        },
+        {
+          "what": "IBM Champion (ICS)",
+          "when": "2015, 2016"
         }
-        ],
-        "misc": [
-                {
-                        "pdflink":      "http://bit.ly/EM_CV_PDF"
-                },{
-                        "permalink":    "http://bit.ly/EricM_CV"
-                }
-        ]
+      ]
+    }
+  ],
+  "interests": "Photography, biking, skiing, and snow shoeing are my hobbies. They usually require the outdoors and are great ways to pass time and be active while engaging the brain and creative processes.",
+  "social": [
+    {
+      "service": "Website",
+      "link": "https://edm00se.codes/"
+    },
+    {
+      "service": "LinkedIn",
+      "link": "http://www.linkedin.com/in/emccormick"
+    },
+    {
+      "service": "Twitter",
+      "link": "https://www.twitter.com/edm00se"
+    },
+    {
+      "service": "StackOverflow",
+      "link": "http://stackoverflow.com/users/1720082/eric-mccormick"
+    },
+    {
+      "service": "GitHub",
+      "link": "https://github.com/edm00se"
+    }
+  ],
+  "misc": [
+    {
+      "pdflink": "http://bit.ly/EM_CV_PDF"
+    },
+    {
+      "permalink": "http://bit.ly/EricM_CV"
+    }
+  ]
 }
