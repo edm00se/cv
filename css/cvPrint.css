@@ -1,1 +1,35 @@
-#pdfHeader{display:none;}#credit{display:none;}#main{line-height:normal;padding:10px;font-size:85%;box-shadow:none;margin-bottom:0px;padding-bottom:0px;}#title{margin-bottom:0px;}.section-work{margin-top:1em;}.section{margin-bottom:10px;}.section:last-child{margin-bottom:0px;}.section-interests .item:last-child{margin-bottom:0px;}.item{page-break-inside:avoid;}.noPrint{display:none;}
+#pdfHeader {
+  display: none;
+}
+#credit {
+  display: none;
+}
+#main {
+  line-height: normal;
+  padding: 10px;
+  font-size: 85%;
+  box-shadow: none;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+#title {
+  margin-bottom: 0px;
+}
+.section-work {
+  margin-top: 1em;
+}
+.section {
+  margin-bottom: 10px;
+}
+.section:last-child {
+  margin-bottom: 0px;
+}
+.section-interests .item:last-child {
+  margin-bottom: 0px;
+}
+.item {
+  page-break-inside: avoid;
+}
+.noPrint {
+  display: none;
+}

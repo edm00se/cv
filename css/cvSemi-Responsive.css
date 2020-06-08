@@ -1,41 +1,259 @@
-.browseHappy{text-align:center;font-size:1.5rem;}a{text-decoration:none;color:inherit;}body{background:#f0f0f0;margin:0;padding:0;font-family:Georgia,serif,'Trebuchet MS';line-height:20px;font-size:12px;color:#222;}h1,h2,h3,h4{margin:0 0 15px 0;padding:0;}h1{font-size:400%;}h2{font-size:210%;}h3{font-size:130%;}p{margin:0 0 10px 0;}ul{list-style-type:circle;}li{margin-bottom:5px;}.clear{clear:both;}#main{background:#fff;max-width:900px;padding:35px;margin:0 auto 15px auto;overflow:hidden;box-shadow:0 0 6px #ccc;}#title{line-height:42px;margin:0px 0 15px 0;font-weight:normal;text-align:center;text-shadow:1px 1px 1px grey;}#credit{margin-bottom:20px;font-size:11px;color:#999;text-align:center;}#credit a{color:#999;}p label{font-weight:bold;font-size:110%;margin-right:10px;}p label span.colon{display:inline;}.section{margin-bottom:30px;}.item{margin:0 0 20px 0;}.basic-info{margin:0 auto 30px auto;width:80%;overflow:hidden;text-align:center;}.basic-info p{margin:0;}.basic-info .dot{display:inline;font-size:14px;margin:0 10px;}.section .title{text-transform:uppercase;font-size:150%;text-align:center;border-bottom:1px solid #ccc;padding-bottom:10px;}.section .set h3{margin:0;}.section span{display:block;}.section h3 span.l,.section span.r{width:49%;float:left;}.section span.r{float:right;text-align:right;}.section-education .school,.section-work .job_title{font-size:100%;display:block;margin:5px 0 5px 0;font-style:italic;}.three-col,ul.Platforms{-moz-column-count:3;-moz-column-gap:20px;-webkit-column-count:3;-webkit-column-gap:20px;column-count:3;column-gap:20px;}.two-col,ul.Progression{-moz-column-count:2;-moz-column-gap:20px;-webkit-column-count:2;-webkit-column-gap:20px;column-count:2;column-gap:20px;}#pdfHeader{max-width:900px;margin:0 auto 15px auto;overflow:hidden;padding-top:1em;text-align:center;font-family:Georgia,serif,'Trebuchet MS';line-height:20px;}#pdfHeader a{text-decoration:none;color:#999;}#printHeader{display:none;}nav.mobLinks{display:none;}#menuLabel:before{content:"\2261";font-size:2.5em;color:white;}a.notFancy{text-decoration:none;color:inherit;padding-left:1em;line-height:2em;}#navLinkMenuButton{display:none;}body:not(:target) #navLinkMenuButton{display:none;position:relative;width:100%;top:0;left:0;z-index:999;padding:0;background-color:grey;}body:not(:target) #menu{margin:0;padding-top:3em;position:absolute;top:0;right:0;left:0;z-index:1000;}body:not(:target) #menu:target{z-index:1001;}body:not(:target) #menu li{width:100%;height:0;line-height:0;overflow:hidden;}body:not(:target) #menu:target li{height:2em;line-height:normal;overflow:visible;}@media(max-width:480px) {
-    /* Styles */
-    span.company.l, span.date.r, span.course.l {
-        display: block !important;
-        width: 100% !important;
-        float: none !important;
-        text-align: left;
-    }
-    span.date.r {
-        font-weight: normal;
-    }
-    #pdfHeader {
-        display: none;
-    }
-    #title {
-        font-size: 280%;
-    }
-    nav.mobLinks {
-        /*display: block;*/
-        display: none;
-        width: 75%;
-        /* text-align: center; */
-        padding-left: 2.5em;
-        font-size: 200%;
-    }
-    .mobLinks li {
-        list-style-type: none;
-    }
-    #credit {
-        font-size: 150%;
-    }
-    #social:after {
-        /* content: "Social: ";*/
-    }
-    .basic-info {
-        width: 100%;
-    }
-    body:not(:target) #navLinkMenuButton {
-        display: block;
-    }
+.browseHappy {
+  text-align: center;
+  font-size: 1.5rem;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+body {
+  background: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, serif, "Trebuchet MS";
+  line-height: 20px;
+  font-size: 12px;
+  color: #222;
+}
+h1,
+h2,
+h3,
+h4 {
+  margin: 0 0 15px 0;
+  padding: 0;
+}
+h1 {
+  font-size: 400%;
+}
+h2 {
+  font-size: 210%;
+}
+h3 {
+  font-size: 130%;
+}
+p {
+  margin: 0 0 10px 0;
+}
+ul {
+  list-style-type: circle;
+}
+li {
+  margin-bottom: 5px;
+}
+.clear {
+  clear: both;
+}
+#main {
+  background: #fff;
+  max-width: 900px;
+  padding: 35px;
+  margin: 0 auto 15px auto;
+  overflow: hidden;
+  box-shadow: 0 0 6px #ccc;
+}
+#title {
+  line-height: 42px;
+  margin: 0px 0 15px 0;
+  font-weight: normal;
+  text-align: center;
+  text-shadow: 1px 1px 1px grey;
+}
+#credit {
+  margin-bottom: 20px;
+  font-size: 11px;
+  color: #999;
+  text-align: center;
+}
+#credit a {
+  color: #999;
+}
+p label {
+  font-weight: bold;
+  font-size: 110%;
+  margin-right: 10px;
+}
+p label span.colon {
+  display: inline;
+}
+.section {
+  margin-bottom: 30px;
+}
+.item {
+  margin: 0 0 20px 0;
+}
+.basic-info {
+  margin: 0 auto 30px auto;
+  width: 80%;
+  overflow: hidden;
+  text-align: center;
+}
+.basic-info p {
+  margin: 0;
+}
+.basic-info .dot {
+  display: inline;
+  font-size: 14px;
+  margin: 0 10px;
+}
+.section .title {
+  text-transform: uppercase;
+  font-size: 150%;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+.section .set h3 {
+  margin: 0;
+}
+.section span {
+  display: block;
+}
+.section h3 span.l,
+.section span.r {
+  width: 49%;
+  float: left;
+}
+.section span.r {
+  float: right;
+  text-align: right;
+}
+.section-education .school,
+.section-work .job_title {
+  font-size: 100%;
+  display: block;
+  margin: 5px 0 5px 0;
+  font-style: italic;
+}
+.three-col,
+ul.Platforms {
+  -moz-column-count: 3;
+  -moz-column-gap: 20px;
+  -webkit-column-count: 3;
+  -webkit-column-gap: 20px;
+  column-count: 3;
+  column-gap: 20px;
+}
+.two-col,
+ul.Progression {
+  -moz-column-count: 2;
+  -moz-column-gap: 20px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 20px;
+  column-count: 2;
+  column-gap: 20px;
+}
+#pdfHeader {
+  max-width: 900px;
+  margin: 0 auto 15px auto;
+  overflow: hidden;
+  padding-top: 1em;
+  text-align: center;
+  font-family: Georgia, serif, "Trebuchet MS";
+  line-height: 20px;
+}
+#pdfHeader a {
+  text-decoration: none;
+  color: #999;
+}
+#printHeader {
+  display: none;
+}
+nav.mobLinks {
+  display: none;
+}
+#menuLabel:before {
+  content: "\2261";
+  font-size: 2.5em;
+  color: white;
+}
+a.notFancy {
+  text-decoration: none;
+  color: inherit;
+  padding-left: 1em;
+  line-height: 2em;
+}
+#navLinkMenuButton {
+  display: none;
+}
+body:not(:target) #navLinkMenuButton {
+  display: none;
+  position: relative;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  padding: 0;
+  background-color: grey;
+}
+body:not(:target) #menu {
+  margin: 0;
+  padding-top: 3em;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+}
+body:not(:target) #menu:target {
+  z-index: 1001;
+}
+body:not(:target) #menu li {
+  width: 100%;
+  height: 0;
+  line-height: 0;
+  overflow: hidden;
+}
+body:not(:target) #menu:target li {
+  height: 2em;
+  line-height: normal;
+  overflow: visible;
+}
+@media (max-width: 480px) {
+  /* Styles */
+  span.company.l,
+  span.date.r,
+  span.course.l {
+    display: block !important;
+    width: 100% !important;
+    float: none !important;
+    text-align: left;
+  }
+  span.date.r {
+    font-weight: normal;
+  }
+  #pdfHeader {
+    display: none;
+  }
+  #title {
+    font-size: 280%;
+  }
+  nav.mobLinks {
+    /*display: block;*/
+    display: none;
+    width: 75%;
+    /* text-align: center; */
+    padding-left: 2.5em;
+    font-size: 200%;
+  }
+  .mobLinks li {
+    list-style-type: none;
+  }
+  #credit {
+    font-size: 150%;
+  }
+  #social:after {
+    /* content: "Social: ";*/
+  }
+  .basic-info {
+    width: 100%;
+  }
+  body:not(:target) #navLinkMenuButton {
+    display: block;
+  }
+}
+
+@media print {
+  #title {
+    text-shadow: inherit;
+  }
 }
