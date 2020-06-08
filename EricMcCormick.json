@@ -10,9 +10,16 @@
   },
   "work": [
     {
+      "company": "DRC (Data Recognition Corporation)",
+      "from": "Feb 2020",
+      "to": "Current",
+      "position": "Senior Software Developer",
+      "description": "Full-stack JavaScript developer, providing new feature development, bug fixes, architectural support, and enhancements for a high availability dstributed system of applicaitons. Front end work with Angular 8 and TypeScript with high testing coverage and back end work in Node.js with sails framework, with TypeScript and CoffeeScript. Redis and PostreSQL database use and support along with AWS suite of cloud services. Builds on Jenkins with GitHub Enterprise source control and Jira issue tracking."
+    },
+    {
       "company": "TASC (Total Administrative Services Corporation)",
       "from": "May 2019",
-      "to": "Current",
+      "to": "Feb 2020",
       "position": "Senior Software Developer",
       "description": "Full-stack JavaScript developer, providing new feature development, issue remediation, and support for a high availability application. Front ends work consists of applications built on Angular with micro services driving the back-ends, with deployments on AWS lambda, with the serverless framework, MS SQL db, and Athena data. AWS console, step functions, athena reporting, and logging, in addition to Docker built images for deployments, built on Jenkins. TypeScript with both back-end and front-ends, amongst other tooling."
     },
@@ -115,19 +122,22 @@
       "what": "Platforms",
       "list": [
         "JavaScript",
+        "TypeScript",
         "Node.js",
+        "Angular",
         "IBM XPages",
         "SSJS",
         "Java",
         "LotusScript",
         "PHP",
         "jQuery",
+        "Dojo",
         "HTML5",
         "Python",
         "MongoDB",
         "MySQL",
         "MariaDB",
-        "MS SQL",
+        "MSSQL",
         "Dynamo DB",
         "Servlerless framework",
         "AWS lambda",
@@ -184,8 +194,8 @@
           "when": "2013"
         },
         {
-          "what": "IBM Champion (ICS)",
-          "when": "2015, 2016"
+          "what": "IBM Champion",
+          "when": "2015 -> 2020"
         }
       ]
     }
