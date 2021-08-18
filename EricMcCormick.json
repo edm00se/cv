@@ -1,12 +1,7 @@
 {
   "nameBlock": {
     "firstName": "Eric",
-    "lastName": "McCormick",
-    "email": "eric.n.mccormick@gmail.com",
-    "phone": "(218)499-9455",
-    "city": "Neenah",
-    "state": "WI",
-    "zip": "54956"
+    "lastName": "McCormick"
   },
   "work": [
     {
@@ -211,16 +206,16 @@
       "link": "http://www.linkedin.com/in/emccormick"
     },
     {
-      "service": "Twitter",
-      "link": "https://www.twitter.com/edm00se"
-    },
-    {
       "service": "StackOverflow",
       "link": "http://stackoverflow.com/users/1720082/eric-mccormick"
     },
     {
       "service": "GitHub",
       "link": "https://github.com/edm00se"
+    },
+    {
+      "service": "Contact",
+      "link": "https://edm00.se/contact"
     }
   ],
   "misc": [
