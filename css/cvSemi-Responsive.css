@@ -10,7 +10,7 @@ body {
   background: #f0f0f0;
   margin: 0;
   padding: 0;
-  font-family: Georgia, serif, "Trebuchet MS";
+  font-family: Georgia, serif, 'Trebuchet MS';
   line-height: 20px;
   font-size: 12px;
   color: #222;
@@ -66,6 +66,10 @@ li {
 }
 #credit a {
   color: #999;
+}
+#header-social {
+  display: inline-flex;
+  text-align: center;
 }
 p label {
   font-weight: bold;
@@ -148,7 +152,7 @@ ul.Progression {
   overflow: hidden;
   padding-top: 1em;
   text-align: center;
-  font-family: Georgia, serif, "Trebuchet MS";
+  font-family: Georgia, serif, 'Trebuchet MS';
   line-height: 20px;
 }
 #pdfHeader a {
@@ -162,7 +166,7 @@ nav.mobLinks {
   display: none;
 }
 #menuLabel:before {
-  content: "\2261";
+  content: '\2261';
   font-size: 2.5em;
   color: white;
 }
