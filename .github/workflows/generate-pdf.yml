@@ -16,6 +16,5 @@ jobs:
         webPageURL: https://edm00se.codes/cv/
         outputFile: ./auto-EM-CV.pdf
         usePuppeteer: true
-        useScreen: false
         pdfOptions: '{"format": "Letter", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
     - uses: stefanzweifel/git-auto-commit-action@v5
