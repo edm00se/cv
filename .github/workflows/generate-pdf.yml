@@ -9,8 +9,13 @@ jobs:
   generate-pdf:
     runs-on: ubuntu-latest
     steps:
-    - name: Convert CV to PDF
-      uses: "imbhargav5/puppeteer-pdf-action@master"
+    - uses: actions/checkout@v4
+    - name: html to pdf
+      uses: misaelnieto/web_to_pdf_action@master
       with:
-        url: https://edm00se.codes/cv/
-        output-file-path: cv.pdf
+        webPageURL: https://edm00se.codes/cv/
+        outputFile: ./auto-EM-CV.pdf
+        usePuppeteer: true
+        useScreen: true
+        pdfOptions: '{"format": "Letter", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
+    - uses: stefanzweifel/git-auto-commit-action@v5
