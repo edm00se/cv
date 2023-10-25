@@ -1,0 +1,16 @@
+name: Generate PDF
+
+on:
+  push:
+    branches:
+    - master
+
+jobs:
+  generate-pdf:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Convert CV to PDF
+      uses: "imbhargav5/puppeteer-pdf-action@master"
+      with:
+        url: https://edm00se.codes/cv/
+        output-file-path: cv.pdf
