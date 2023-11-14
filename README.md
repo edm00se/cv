@@ -1,25 +1,18 @@
-# Astro minimal CV
+# EM CV
 
-Template for a minimal CV with dark mode support. This CV is fully customizable and uses [`Tailwind`](https://tailwindcss.com). Furthermore, you can add your own social accounts using `astro-icon`.
-
-<img src="./resources/light-mode-cv.png" height="500px" style="margin-right: 32px" />
-<img src="./resources/dark-mode-cv.png" height="500px" />
+Built from [alexanderhodes/astro-minimal-cv](https://github.com/alexanderhodes/astro-minimal-cv).
 
 ## Commands
 
-This application is built with `yarn`, but you're free to use any package management you want to.
-
 ```bash
 # install all dependencies
-$ yarn
+$ npm install
 # start dev server
-$ yarn dev
+$ npm run dev
 # builds the app and publishes it into `dist` folder
-$ yarn build
+$ npm run build
 # preview the app that was built
-$ yarn preview
-# run astro commands
-$ yarn astro ...
+$ npm run preview
 ```
 
 ## Project structure
