@@ -7,10 +7,13 @@ Built from [alexanderhodes/astro-minimal-cv](https://github.com/alexanderhodes/a
 ```bash
 # install all dependencies
 $ npm install
+
 # start dev server
 $ npm run dev
+
 # builds the app and publishes it into `dist` folder
 $ npm run build
+
 # preview the app that was built
 $ npm run preview
 ```
