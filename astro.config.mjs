@@ -3,7 +3,8 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-    site: "http://localhost:3000",
+    site: 'https://edm00se.codes',
+    base: '/cv',
     integrations: [
         tailwind(),
     ],
