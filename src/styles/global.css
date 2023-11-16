@@ -96,3 +96,7 @@ body {
 .column {
     width: 160px;
 }
+
+.row-entry:not(:first-of-type) {
+    margin-top: 1.25rem;
+}
