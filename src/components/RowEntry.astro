@@ -5,7 +5,7 @@ export interface Props {
   /** title will be displayed in bold */
   title?: string;
   /** description is a longer text displayed below title */
-  description: string;
+  description?: string;
   /** sub title is placed on the right of title */
   subTitle?: string;
 }
@@ -21,6 +21,12 @@ const { description, name, title, subTitle } = Astro.props;
       {title && <span class="font-bold">{title}</span>}
       {subTitle && <span>{subTitle}</span>}
     </div>
-    <div>{description}</div>
+    <div>{
+      description ? (
+        description
+      ) : (
+        <slot></slot>
+      )
+    }</div>
   </div>
 </div>
